@@ -21,4 +21,4 @@ Er wordt enkel maar gewerkt in src/components, alle andere bestanden, mappen moe
 
 In de src/components folder bevinden zich enkele components: ['Api', 'Counter', 'DispatchCounter', 'Interval', 'Reusable']. Als u de applicatie opstart zal u zelf ook zien dat er kan doorgeklikt worden naar deze components. De oefeningen staan in volgorde van moeilijkheid. Links bovenaan is het makkelijkste, rechts vanonder is het moeilijkste.
 
-Binnen deze mappen zal er een VRAAG.md bestand te vinden zijn waarin het gevraagde eindresultaat wordt uitgelegd, het is belangrijk de vraag duidelijk te lezen.
+Binnen deze mappen zal er een VRAAG.md bestand te vinden zijn waarin het gevraagde eindresultaat wordt uitgelegd, het is belangrijk de vraag duidelijk te lezen.# rmdy_interview
