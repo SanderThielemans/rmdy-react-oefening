@@ -1,6 +1,6 @@
 # DispatchCounter
 
-In dit component verwachten we hetzelfde als in de gewonen Counter enkel wordt er nu verwacht dat met gebruik maakt van de useDispatch hook van React.
+In dit component verwachten we hetzelfde als in de gewonen Counter enkel wordt er nu verwacht dat met gebruik maakt van de useReducer hook van React.
 
 ## De oefening
 

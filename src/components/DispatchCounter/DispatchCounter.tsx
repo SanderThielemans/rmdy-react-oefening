@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Controls, Reset, CustomInput } from './Counter.styles';
 
 
+//Uee useReducer
 const intialCount = 12;
 
 const DispatchCounter: React.FC = () => {
