@@ -1,16 +1,18 @@
 import React from 'react'
 import { Container } from './Reuseable.styles'
 
-interface Props {
+interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     label: string;
 }
 
-const LabelButton: React.FC<Props>  = (props) => {
+const LabelButton: React.FC<Props> = (props) => {
+
+    const { label, ...rest } = props;
 
     return(
         <>
-            <p>{props.label.toLocaleUpperCase()}</p>
-            <button>OVER HERE</button>
+            <p>{label.toLocaleUpperCase()}</p>
+            <button {...rest}>OVER HERE</button>
         </>
     )
 }
@@ -18,7 +20,7 @@ const LabelButton: React.FC<Props>  = (props) => {
 const Reuseable: React.FC = () => {
     return(
         <Container>
-            <LabelButton label='Click the button below'/>
+            <LabelButton label='Click the button below' onClick={e => console.log('clicked button')} />
         </Container>
     )
 }
