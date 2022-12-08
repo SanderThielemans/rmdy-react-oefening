@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Controls, Reset, CustomInput } from './Counter.styles';
 
 
-const intialCount = 12;
+const initialCount = 12;
 
 const Counter: React.FC = () => {
-    const [count, setCount] = React.useState<number>(intialCount);
-    const [customAdder, setCustomAdder] = React.useState<number>(5);
+    const [count, setCount] = React.useState<number>(initialCount);
+    const [customAdder, setCustomAdder] = React.useState<number>(0);
 
     const addNumber = (adder: number) => {
         const result = count + adder;
@@ -14,7 +14,7 @@ const Counter: React.FC = () => {
     }
 
     const resetNumber = () => {
-        setCount(intialCount);
+        setCount(initialCount);
     }
 
     return (
