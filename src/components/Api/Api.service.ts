@@ -15,7 +15,12 @@ export interface User {
 }
 
 const GetRandomUser = async () => {
-    //
+    try {
+        const response = await axios.get(ENDPOINT);
+        return response.data.results;
+    } catch(error) {
+        console.error(error);
+    }
 }
 
 
