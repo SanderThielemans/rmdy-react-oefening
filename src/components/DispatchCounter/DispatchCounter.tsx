@@ -9,7 +9,6 @@ const initialCount = 12;
 const DispatchCounter: React.FC = () => {
     const [state, dispatch] = React.useReducer(counterReducer, {count: initialCount});
     const [customAdder, setCustomAdder] = React.useState<number>(0);
-    console.log(state);
 
     const addNumber = (adder: number) => {
         dispatch({type: 'counter.add', payload: adder});
